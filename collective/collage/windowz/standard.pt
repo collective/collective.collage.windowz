@@ -39,11 +39,11 @@
     <a href="#" tal:attributes="href here/remote_url"
        tal:content="here/remote_url">remote url</a>
   </iframe>
-  
+
   <p tal:condition="here/getShow_reference">
     <span i18n:translate="link_address">The link address is:</span>
     <a href="#" tal:attributes="href here/remote_url"
        tal:content="here/remote_url">remote url</a>
   </p>
-    
+
 </tal:folder>
